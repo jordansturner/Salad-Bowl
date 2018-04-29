@@ -1,0 +1,602 @@
+
+/* Universal Styles*/
+
+body {
+	height: 100%;
+	max-width: 100%;
+	margin:0px;
+	overflow-x: hidden;
+}
+
+@font-face {
+font-family: "Whitney-Semibold";
+src: url("Whitney_Real/Whitney-semibold.eot");
+src: 
+	url("Whitney_Real/Whitney-semibold.otf")
+	format('opentype');
+}
+
+@font-face {
+font-family: "Whitney-Book";
+src: url("Whitney_Real/Whitney-Book.eot");
+src: 
+	url("Whitney_Real/Whitney-Book.otf")
+	format('opentype');
+}
+
+
+h1 {
+	font-family: Whitney-Semibold;
+	font-size: 26px;
+	color: #2B2B2B;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: Whitney-Semibold;
+	font-size: 20px;
+	color: #F7A1A1;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+.eighteen_black {
+	font-family: Whitney-Semibold;
+	font-size: 18px;
+	color: #2B2B2B;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+.eighteen_salmon {
+	font-family: Whitney-Semibold;
+	font-size: 18px;
+	color: #F7A1A1;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+.eighteen_light_salmon {
+	font-family: Whitney-Semibold;
+	font-size: 18px;
+	color: #FFD5D5;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: Whitney-Book;
+	font-size: 18px;
+	color: #2B2B2B;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+h4 {
+	font-family: Whitney-Book;
+	font-size: 14px;
+	color: #2B2B2B;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+.room_code_font {
+	font-family: Whitney-Semibold;
+	font-size: 42px;
+	color: #F7A1A1;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+.pink_h1 {
+	font-family: Whitney-Semibold;
+	font-size: 26px;
+	color: #F7A1A1;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+.button_text {
+	margin: 0px;
+
+}
+
+.small_pink_line {
+	width: 32px;
+	height: 2px;
+	border-radius: 100px;
+	transform: translate(-50%);
+	margin-left: 50%;
+	margin-top:10px;
+	margin-bottom: 20px;
+	background-color: #F7A1A1;
+
+}
+
+.in_app_orange_buttons {
+	position: relative;
+	display: inline-block;
+	width: 166px;
+	height: 49px;
+	background: linear-gradient(140deg, #FFDBB5, #FFE0C4);
+	border-radius: 100px;
+	outline: none;
+	border: hidden;
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-bottom: 55px;
+	box-shadow: 0px 5px 5px rgba(152, 112, 75, 0.22);
+}
+
+.page_header {
+	text-align: center;
+	margin:0px;
+}
+
+.page_body {
+	text-align: center;
+}
+/*Navigation Styles */
+
+
+#navigation_wrapper {
+	position: relative;
+    display: block;
+    margin-top: 15%;
+    height: 90px;
+    width: 100%;
+}
+#rules_page_icon_wrapper {
+	position: absolute;
+    display: inline-block;
+    top: 9%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+
+}
+#shop_page_icon_wrapper {
+	position: absolute;
+    display: inline-block;
+    top: 9%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+#home_page_icon_wrapper {
+	position: absolute;
+    display: inline-block;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#random_page_icon_wrapper {
+	position: absolute;
+    display: inline-block;
+    top: 9%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+
+#settings_page_icon_wrapper {
+	position: absolute;
+    display: inline-block;
+    top: 9%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+}
+
+/*Home Screen Styles*/
+
+#home_screen_wrapper {
+	visibility: hidden;
+}
+
+#salad_bowl_header_wrapper {
+	position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 277px;
+    height: 225px;
+}
+
+#salad_bowl_icon {
+	position: relative;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 158px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+#salad_bowl_header {
+	text-align: center;
+	margin:0px;
+}
+
+#salad_bowl_body {
+	text-align: center;
+}
+
+
+#button_home_screen_wrapper {
+	position: absolute;
+	bottom: 21px;
+	left: 50%;
+	transform: translate(-50%);
+
+}
+
+.landing_page_buttons {
+	position: relative;
+	display: inline-block;
+	width: 269px;
+	height: 49px;
+	background: linear-gradient(140deg, #FFDBB5, #FFE0C4);
+	border-radius: 100px;
+	outline: none;
+	border: hidden;
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-bottom: 24px;
+	box-shadow: 0px 5px 5px rgba(152, 112, 75, 0.22);
+
+}
+
+/*Host Game Screen Styles*/
+
+#host_game_screen_wrapper {
+	display: none;
+}
+
+#host_a_new_game_header_wrapper{
+	position: relative;
+	margin-bottom: 50px;
+}
+#enter_player_name_wrapper {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#player_name_header {
+	text-align: center;
+}
+
+#enter_player_name_input {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: solid 2px;
+	border-color: #FFD5D5;
+	border-radius: 10px;
+	width: 246px;
+	height: 48px;
+	outline: none;
+	font-family: Whitney-Book;
+	font-size: 26px;
+	color: #2B2B2B;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-align: center;
+}
+
+#enter_number_of_teams_wrapper {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#number_of_teams_header {
+	text-align: center;
+}
+
+#enter_size_of_teams_wrapper {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#size_of_teams_header {
+	text-align: center;
+}
+
+#person_selector_wrapper {
+	width: 288px;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px
+}
+
+.pink_person_host_page {
+	margin: 8px;
+	position: relative;
+	display: inline-block;
+}
+
+#enter_length_of_turns_wrapper {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#length_of_turns_header {
+	text-align: center;
+}
+
+#length_of_turns_construct_wrapper {
+	width: 65%;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+#arrow_left {
+	position: absolute;
+	left: 0px;
+	top: 55%;
+	transform: translate(0%,-50%);
+}
+#arrow_right {
+	position: absolute;
+	right: 0px;
+	top: 55%;
+	transform: translate(0%,-50%);
+}
+#length_of_turns_string {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: Whitney-Book;
+	font-size: 26px;
+	color: #2B2B2B;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+#enter_cards_per_player_wrapper {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#cards_per_player_header {
+	text-align: center;
+}
+
+#cards_playground_wrapper {
+	width: 65%;
+	height: 110px;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+}
+#minus {
+	position: absolute;
+	left: 0px;
+	top: 55%;
+	transform: translate(0%,-50%);
+}
+#plus {
+	position: absolute;
+	right: 0px;
+	top: 55%;
+	transform: translate(0%,-50%);
+}
+
+.small_cards {
+	position: relative;
+	display: inline-block;
+	width: 79px;
+	height: 99px;
+	transform: translate(-50%);
+	margin-left: 50%;
+	background-color: white;
+	box-shadow: 0px 2px 10px rgba(152, 112, 75, 0.22);
+	border-radius: 5px;
+
+}
+
+#number_of_cards_per_player {
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/*Join Game Screen Styles*/
+
+#join_game_screen_wrapper {
+	display: none;
+}
+
+#join_an_existing_game_header_wrapper{
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#enter_room_code_wrapper {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#enter_room_code_header {
+	text-align: center;
+}
+
+#enter_room_code_input {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: solid 2px;
+	border-color: #FFD5D5;
+	border-radius: 10px;
+	width: 246px;
+	height: 68px;
+	outline: none;
+	font-family: Whitney-SemiBold;
+	font-size: 42px;
+	color: #F7A1A1;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-align: center;
+}
+
+/*Game Waiting Area Screen Styles*/
+
+#game_waiting_area_screen_wrapper {
+}
+
+#game_waiting_area_header_wrapper{
+	position: relative;
+	margin-bottom: 60px;
+}
+
+#game_waiting_area_header {
+	position: relative;
+	position: block;
+	margin-bottom: 10px;
+}
+
+#players_joined_counter {
+	position: relative;
+	position: block;
+	margin-top: 10px;
+	text-align: center;
+}
+#room_code_text {
+	position: relative;
+	position: block;
+	text-align: center;
+}
+
+#fun_fact_of_the_day_wrapper {
+	position: relative;
+	margin-bottom: 80px;
+}
+
+#fun_fact_header {
+	text-align: center;
+}
+
+#fun_fact_body_text {
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*<div id="team_selection_wrapper">
+            <div id="team_selection_background"></div>
+            <div id="team_selection_header_wrapper">
+                <img src="img/arrow_up.png" id="arrow_up">
+                <div class="eighteen_pink">TEAM SELECTION</div>
+            </div>
+            <div id="team_identifier_wrapper">
+                <h1 id="team_saved_name">SAVED TEAM NAME</h1>
+                <div class="small_pink_line"></div>
+                <h4 id="change_team_name">Change Name</h4>
+            </div>
+            <div id="team_list_icons_wrapper">
+                <div class="spot_wrapper">
+                    <img src="img/black_person.png" id="spot_icon">
+                    <div class="eighteen_pink">Open</div>
+                </div>
+            </div>
+           <!--  <button class="in_app_grey_buttons"><h2 class="button_text">Leave Team</h2></button> -->
+            <button class="in_app_orange_buttons"><h2 class="button_text">Join Team</h2></button>
+            <div id="breadcrumb_wrapper">
+                <div class="breadcrumb_inactive"></div>
+                <div class="breadcrumb_inactive"></div>
+                <div class="breadcrumb_inactive"></div>
+                <div class="breadcrumb_inactive"></div>
+            </div>
+        </div>*/
+#team_selection_wrapper {
+	position: fixed;
+	height: 400px;
+	width: 100%;
+	bottom: 0px;
+}
+#team_selection_background {
+	position: absolute;
+	height: 400px;
+	width: 100%;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	background-color: white;
+	box-shadow: 0px -3px 10px rgba(152, 112, 75, 0.22);
+	z-index: 2;
+
+}
+#team_selection_header_wrapper {
+	position: relative;
+	display: block;
+	margin-top: 0px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+
+}
+#arrow_up {
+	position: absolute;
+	left: 8%;
+	top: 55%;
+	transform: translate(-50%,-50%);
+}
+
+#team_selection_header {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	z-index: 2;
+}
+#change_team_name_wrapper {
+	display: none;
+}
+#change_team_name {
+	color: #F7A1A1;
+	z-index: 2;
+}
+
+
+#team_identifier_wrapper {
+	position: relative;
+	z-index: 2;
+}
+
+#team_saved_name {
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#change_team_name {
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+}
+
+#team_list_icons_wrapper {
+	z-index: 2;
+}
